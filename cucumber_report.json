@@ -1,0 +1,79 @@
+[
+  {
+    "description": "As a user I wanted to login to the application so that I can purchase products",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 149194099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I visit the Sauce Demo website login page",
+            "match": {
+              "location": "step-definitions\\loginStepDefinition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 541176400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter valid login credentials",
+            "match": {
+              "location": "step-definitions\\loginStepDefinition.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158214199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the home page",
+            "match": {
+              "location": "step-definitions\\loginStepDefinition.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23899799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54298099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
